@@ -1,6 +1,30 @@
 h1{
     background-color: #CDCDCD;
 }
-body{
+.body{
     background-color: #3B252C;
+}
+@media screen and (max-device-width: 575px) { 
+    .header{
+        padding: 15px;
+        font-size: 50px;
+    }
+    .navbar{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .card{
+        margin-bottom: 40px;
+    }
+
+
+}
+
+@media screen and (min-device-width: 576px)
+{ 
+
+}
+@media screen and (min-device-width: 992px)
+{ 
+
 }
