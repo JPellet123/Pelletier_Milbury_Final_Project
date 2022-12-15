@@ -1,0 +1,74 @@
+h1{
+    background-color: #CDCDCD;
+}
+.body{
+    background-color: #3B252C;
+}
+@media screen and (max-device-width: 575px) { 
+    .header{
+        padding: 15px;
+        font-size: 50px;
+    }
+    .navbar{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .card{
+        margin-bottom: 40px;
+        width: 18rem;
+        margin-right: 100%;
+        margin-left: 25%;
+    }
+    .nav-item{
+        margin-right: 5px;
+    }
+
+    
+
+
+}
+
+@media screen and (min-device-width: 576px)
+{
+    .header{
+        padding: 15px;
+        font-size: 50px;
+    }
+    .navbar{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .card{
+        margin-bottom: 40px;
+        width: 18rem;
+        
+
+    }
+    .nav-item{
+        margin-right: 7px;
+    }
+}
+@media screen and (min-device-width: 992px)
+{ 
+    .header{
+        padding: 15px;
+        font-size: 50px;
+    }
+    .navbar{
+        font-size: 18px;
+        margin-bottom: 40px;
+        background-color: #CDCDCD;
+
+    }
+    .nav-item{
+        margin-right: 10px;
+    }
+    .card{
+        margin-bottom: 40px;
+        width: 18rem;
+
+    }
+    img{
+        height: 350px;
+    }
+}
