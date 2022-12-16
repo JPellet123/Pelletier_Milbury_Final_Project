@@ -22,8 +22,9 @@ h1{
     .nav-item{
         margin-right: 5px;
     }
-
-    
+    .nature{
+        margin: 0;
+    }
 
 
 }
