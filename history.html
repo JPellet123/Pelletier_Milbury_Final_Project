@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta description="The last project for responsive web">
+    <title>Final Project</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+        <h1 class="text-center header">Dubai</h1>
+    </div>
+        <div class="nav">
+            <nav class="navbar navbar-expand nav-fill w-100 navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">Home</a>
+
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="history.html">History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="locations.html">Locations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="famous_people.html">Famous people</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="natural_features.html">Natural Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="demographics.html">Demographics</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="national_symbols.html">National Symbols</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <div class="row text-center">
+                <h2>History</h2>
+            </div>
+
+            <div class="row text-sm-center justify-content-sm-center">
+                <div class="card col-sm-10 col-md-6 col-lg-12 text-lg-center align-self-sm-center  " >
+                  <div class="card-body">
+                    <p class="card-text">
+                        Dubai and its roots reach back through many time periods with a few big milestones such as 
+                        welcoming the expatriates, the Al Maktoum dynasty, the Walled City, the Bani Yas tribe and finally the start 
+                        all the way back in Early Minoan time period (3000BCE).
+
+                        The Minoan period was when Dubai is believed to have first been settled. The settling was done by cattle herders.
+                        Within the first 500 years Dubai had a date palm plantation that was the first time the area had been used for 
+                        agrucultural purposes.
+
+                        The first actual mention of Dubai occured within a geogrpahy book written by Abu Abdullah Al Bakhri. Another early 
+                        mention of Dubai was in a journal owned by a Venetian pearl merchant Gaspero Balbi. Around that time in Dubai, people were
+                        making a living a few ways. Some of these ways include boat building and fishing.
+
+                        The next big milestone in Dubai's history was in 1793, in that year the Bani Yas tribe settled with political power in 
+                        Abu Dhabi. Dubai became dependant after this happened.
+
+                        Early on in the 1800's Dubai was a walled city. They essentially walled off starting from a fort all the way around and 
+                        reconnecting to the fort. Though this was not good for business that problem would be resolved in 1820 when Britain and Dubai 
+                        came to a truce so that local trade routes would be opened up. This also turned Dubai into a trading center of sorts and a place
+                        in which a lot of crucial activity took place.
+
+                        Fast forward towards the present day and in 1966 the discovery of oil happened. This was a massive growth point for Dubai. After 
+                        that point Dubai really started to advance. Turning what was once just a cluster of settlements to a modern port, city and hub. To 
+                        this day Dubai continues to be one of the worlds leaders in expansion and exploration of new ideas
+                    </p>
+                  </div>
+                  </div>
+                  
+                    <div class="card col-md-6 col-lg-12" >
+
+                      <div class="row">
+                        <div class="card col-md-12 col-lg-6">
+                          <span class="tt" data-bs-placement="bottom" title="Dubai in the current day. Dubai is home to some brilliant sites and cities, this is a shot of a city within dubai 
+                          filled with life at night!">
+                            <img src="images/Dubai1.jfif" class="card-img-top" alt="Picture of current day Dubai">
+                          </span>
+                        </div>
+                      
+                        <div class="card col-md-12 col-lg-6">
+                          <span class="tt" data-bs-placement="bottom" title="Dubai in this picture is shown in 1991 on the left and current day on the right.">
+                            <img src="images/Dubai1.jpg" class="card-img-top" alt="Picture of current day Dubai compared to Dubai in 1991">
+                          </span>
+                        </div>
+
+        
+                        </div>
+                        </div>
+                      </div>
+                      
+                      
+
+                    </div>
+                 
+                </div>
+
+
+
+            </div> <!--content goes above this end tag-->
+            <script>
+              const tooltips = document.querySelectorAll(".tt")
+              tooltips.forEach(t => {
+                new bootstrap.Tooltip(t)              
+              })
+            </script>
+        </body>
+    </html>
