@@ -23,9 +23,29 @@ h1{
         margin-right: 5px;
     }
 
+
+    .demo{
+        margin: 0;
+    }
+
+
+    p{
+        font-size: 24px;
+    }
+    .symbols{
+        max-width: 100%;
+    }
+
+    .page__title{
+        margin-bottom: 40px;
+    }
+    #lastcard{
+        margin: 0;
+    }
+        .nature{
+        margin: 0;
+    }
     
-
-
 }
 
 @media screen and (min-device-width: 576px)
@@ -35,7 +55,7 @@ h1{
         font-size: 50px;
     }
     .navbar{
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 40px;
     }
     .card{
@@ -47,6 +67,17 @@ h1{
     .nav-item{
         margin-right: 7px;
     }
+    p{
+        font-size: 28px;
+    }
+    .symbols{
+        max-width: 100%;
+    }
+
+    .page__title{
+        margin-bottom: 50px;
+    }
+
 }
 @media screen and (min-device-width: 992px)
 { 
@@ -55,7 +86,7 @@ h1{
         font-size: 50px;
     }
     .navbar{
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 40px;
         background-color: #CDCDCD;
 
@@ -70,5 +101,15 @@ h1{
     }
     img{
         height: 350px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .symbols{
+        max-width: 100%;
+    }
+
+    .page__title{
+        margin-bottom: 50px;
     }
 }
